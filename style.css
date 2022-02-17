@@ -2,7 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif; 
     display: flex;
     flex-direction: column;    
-      
+    justify-content: center;      
 }
 
 h3 {
@@ -105,7 +105,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 10%;    
+    gap: 3em;    
     flex-wrap: wrap;    
     padding: 0em 4em 0em 4em;
     
