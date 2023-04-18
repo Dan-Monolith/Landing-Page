@@ -7,9 +7,16 @@ body {
 }
 
 h3 {
-    color: rgb(175, 150, 150);
+    color: #2E4057;
     font-size: 2em;
     font-weight: 700;
+}
+
+h3.opskrif {
+    color: #2F2D2E;
+    font-size: 2em;
+    font-weight: 700;
+    margin: 0em;
 }
 
 .logo {
@@ -17,7 +24,7 @@ h3 {
 }
 
 .header-exo{
-    background-color: #1f2937;
+    background-color: #2F2D2E;
     display: flex;
     justify-content: center;    
 }
@@ -56,13 +63,26 @@ h1 {
 h2 {
     font-weight: 900;
     font-size: 2em;
-    color: #1F2937;
+    color: #2F2D2E;
+}
+
+h2.fotos {
+    font-weight: 900;
+    font-size: 2em;
+    color: white;
+}
+
+.p2-header {
+    position: absolute;
+    top: 6em;
+    left: 1em;
 }
 
 .intro-exo {
     display: flex;
+    flex-shrink: auto;
     background-image: url(img/sit-flat2.png);
-    background-size: cover;
+    background-size: cover; 
     background-position: center; 
     
 }
@@ -112,25 +132,70 @@ h2 {
     padding-top: 0em;     
 }
 
+.p2-gallery {
+    background-color: #2F2D2E;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-bottom: 4em;
+    padding-top: 0em;
+}
+
 .info-body {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 3em;    
     flex-wrap: wrap;    
-    padding: 0em 4em 0em 4em;
-    
+    padding: 0em 4em 0em 4em;    
 }
 
 .info-i {
     display:flex;
     flex-direction: column;
+    align-items: center;    
+}
+
+.p2-info-i {
+    display:flex;
+    flex-direction: column;
     align-items: center;
+    color: white;
+}
+
+.artikels {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-bottom: 4em;
+    padding-top: 0em;     
+}
+
+.artikels-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;    
+    flex-wrap: wrap;    
+    padding: 0em 4em 0em 4em;    
+}
+
+.artikels-i {
+    display:flex;
+    flex-direction: row;
+    align-items: left;    
 }
 
 .pic {
     border: 4px solid #048ba8;
-    border-radius: 1em;
+    /* border-radius: 0.5em; */
+    width: 20em;
+}
+
+.p2-pic {
+    border: 4px solid #CA4b2b;
+    /* border-radius: 0.5em; */
     width: 20em;
 }
 
@@ -139,6 +204,7 @@ h4 {
     font-weight:100;
     padding: 4em 2em 0em 2em;
     text-align: left;
+    color: white;
 }
 
 .thor {    
@@ -147,16 +213,17 @@ h4 {
     font-weight: 900;
     padding: 0em 4em 4em 0em;
     margin: 0em;
+    color: #CA4b2b;
 }
 
 .quote-exo {
-    background-color: #E5E7EB;
+    background-color: #2F2D2E;
     display: flex;
     justify-content: center;
 }
 
 .quote {
-    background-color:#E5E7EB;
+    background-color:#2F2D2E;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -171,8 +238,8 @@ h4 {
 }
 
 .sign {
-    background-color: #3882F6;
-    border-radius: 2em;
+    background-color: #048ba8;
+    /* border-radius: 0.5em; */
     width: 100%;
     display: flex;
     padding: 2em 8em 2em 4em;
@@ -202,7 +269,7 @@ p.sign-para {
 
 .butn2 {
     color: white;
-    background-color:#3882F6;
+    background-color: #048ba8;
     border: 2px solid white;
     border-radius: 4px;
     font-size: 18px;
@@ -220,9 +287,28 @@ footer {
     background-color:#2F2D2E;
 }
 
-h4.footer-text {
+h4.contact-text {
     text-align: center;
     padding:0px;
     color: white;
     font-size: 1em;
+}
+
+h4.footer-text {
+    text-align: center;
+    padding:0px;
+    color: #CA4b2b;
+    font-size: 1em;
+}
+
+.pub-img {
+    display: flex;
+    flex-shrink: auto;  
+}
+
+.veld-img {
+    display: flex;
+    flex-shrink: auto;  
+    
+    
 }
